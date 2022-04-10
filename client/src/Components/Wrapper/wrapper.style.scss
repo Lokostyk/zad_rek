@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    .hide_add {
+        padding: .2rem 0 0 .5rem;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: red;
+        border: none;
+        background-color: inherit;
+        width: 20px;
+        height: 20px;
+        img {
+            height: 20px;
+        }
+    }
+}
