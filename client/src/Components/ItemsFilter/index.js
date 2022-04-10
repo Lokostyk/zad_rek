@@ -58,8 +58,8 @@ export default function ItemsFilter({items,setItems,setEditItem}) {
       </div>
       <div className="filter">
         <ul className="filter_list sum">
-          <li className="price">Suma cen</li>
-          <li className="price" style={{textAlign:"center"}}>{items.reduce((sum,i)=>sum + parseInt(i.price),0)}</li>
+          <li className="price">Suma cen / Suma pozycji</li>
+          <li className="price" style={{textAlign:"center"}}>{items.reduce((sum,i)=>sum + parseInt(i.price),0)} / {items.length}</li>
         </ul>
       </div>
     </div>
